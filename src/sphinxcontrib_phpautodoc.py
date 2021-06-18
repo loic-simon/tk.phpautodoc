@@ -10,7 +10,7 @@ import os
 import re
 import codecs
 import pickle
-from phply import phpast as ast
+from phply.phpparse import ast
 from phply.phplex import lexer
 from phply.phpparse import parser
 from docutils import nodes
